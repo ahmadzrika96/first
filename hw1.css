@@ -1,0 +1,119 @@
+
+
+header{
+    background-color: #0000ff;
+    background-image: url("http://intro-webdesign.com/CSS/assignment-2/images/flywheel.jpg");
+    background-size: cover;
+    padding: 2% 3% 2% 3%;
+}
+
+h1{
+    color: #ffffff;
+    text-transform: uppercase;
+    text-align: center;
+    font-size: 150%;
+}
+
+nav a{
+    display: inline-block;
+    width: 14%;
+    min-width: 65px;
+/*    best for zoom 100%*/
+    margin: 0 3% 2% 3%;
+/*    best for zoom 125%*/
+/*    margin: 0% 2% 2% 2.2%;*/
+    padding: 1.5%;
+    text-decoration: none;
+    border-radius: 5px;
+    text-align: center;
+    background-color: rgba(255, 255, 255, 0.3);
+    color: black;
+    font-weight: bold;
+}
+.active, a:hover{
+    color: #0000ff;
+    background-color: #ffffff;
+}
+
+.left{
+    display: inline-block;
+    width: 18%;
+    height: 100vh;
+    float: left;
+    background-color: #747d20;
+    overflow: auto;
+}
+
+.right{
+    display: inline-block;
+    width: 75%;
+    height: 100vh;
+    float: left;
+    margin-left: 1%;
+    overflow: auto;
+
+}
+
+img{
+    display: block;
+    width: 70%;
+    border: solid 2px #000000;
+    margin: 0 auto;
+    margin-top: 12%;
+    margin-bottom: 12%;
+}
+
+/* Table Styling */
+table {
+    padding: 0%;
+    margin: 0 auto;
+    width: 75%;
+    padding-bottom: 1%;
+  
+  border-radius: 10px 10px 0 0;
+}
+
+/* Table Header Styling */
+th {
+    background-color: 	#9ACD32;
+    padding: 3%;
+    font-variant: small-caps;
+    font-size: 100%;
+    color: #ffffff;
+    line-height: 75%;
+    border-radius: 10px 10px 0 0;
+    border-bottom: 2px solid #339933;
+}
+
+/*Make the table text in two columns to the right centered*/
+th, tr td {
+    text-align: center;
+}
+
+/*Make the table text in the column to the left left-aligned*/
+th:first-child, tr td:first-child {
+    text-align: left;
+}
+
+/* Set opacity of table rows*/
+tr td {
+    opacity: 0.6;
+}
+
+
+/*Change opacity of table rows when hovered over*/
+tr:hover td {
+    opacity: 1;
+ 
+}
+
+/*Styling the table cells*/
+td {
+    background-color: #90EE90;
+    padding: 2%;
+  
+    padding-right: 2%;
+    font-size: 90%;
+    border-bottom: 2px solid #ffffff;
+}
+
